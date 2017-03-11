@@ -3,6 +3,6 @@
 (load-theme 'idea-darkula)
 
 (ido-mode)
-(delete-selection-mode 1)
-(tool-bar-mode -1)
 (server-start)
+
+(global-set-key (kbd "<C-tab>") 'other-window)
