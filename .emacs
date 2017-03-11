@@ -14,6 +14,8 @@
     (unless (package-installed-p package)
       (package-install package))))
 
+(ensure-packages-installed '(load-dir))
+
 (require 'load-dir)
 (load-dirs)
 
