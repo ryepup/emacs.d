@@ -14,7 +14,7 @@
     (unless (package-installed-p package)
       (package-install package))))
 
-(ensure-packages-installed '(load-dir))
+(ensure-packages-installed '(load-dir gnu-elpa-keyring-update))
 
 (require 'load-dir)
 (load-dirs)

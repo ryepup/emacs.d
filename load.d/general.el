@@ -1,6 +1,8 @@
 (ensure-packages-installed '(markdown-mode idea-darkula-theme))
 
-(load-theme 'idea-darkula)
+(if (display-graphic-p)
+    (load-theme 'idea-darkula)
+  (load-theme 'wheatgrass))
 
 (ido-mode)
 (server-start)

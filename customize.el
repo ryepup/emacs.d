@@ -7,11 +7,14 @@
  '(custom-enabled-themes (quote (idea-darkula)))
  '(custom-safe-themes
    (quote
-    ("82b67c7e21c3b12be7b569af7c84ec0fb2d62105629a173e2479e1053cff94bd" default)))
+    ("420689cc31d01fe04b8e3adef87b8838ff52faa169e69ca4e863143ae9f3a9f9" "82b67c7e21c3b12be7b569af7c84ec0fb2d62105629a173e2479e1053cff94bd" default)))
  '(delete-selection-mode t)
  '(global-auto-revert-mode t)
  '(global-linum-mode t)
  '(load-dirs "~/emacs.d/load.d")
+ '(package-selected-packages
+   (quote
+    (gnu-elpa-keyring-update undo-tree magit markdown-mode load-dir idea-darkula-theme)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
