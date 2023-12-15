@@ -2,7 +2,7 @@
 
 (if (display-graphic-p)
     (load-theme 'idea-darkula t)
-  (load-theme 'solarized t))
+  (load-theme 'solarized-dark t))
 
 (ido-mode)
 (server-start)
