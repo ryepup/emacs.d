@@ -12,7 +12,7 @@
  '(global-linum-mode t)
  '(load-dirs "~/emacs.d/load.d")
  '(package-selected-packages
-   '(editorconfig solarized-theme gnu-elpa-keyring-update undo-tree magit markdown-mode load-dir idea-darkula-theme))
+   '(dockerfile-mode yaml-mode editorconfig solarized-theme gnu-elpa-keyring-update undo-tree magit markdown-mode load-dir idea-darkula-theme))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
